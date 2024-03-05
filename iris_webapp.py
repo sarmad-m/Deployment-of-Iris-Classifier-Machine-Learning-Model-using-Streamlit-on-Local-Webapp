@@ -19,7 +19,7 @@ def classify(num):
     
 
 def main():
-    st.title('Do you know what types of iris you have?')
+    st.title('What is the iris?')
     html_temp = """
     <div style="background-color:teal ;padding:10px">
     <h2 style="color:white; text-align:center;">Iris Classification</h2>
