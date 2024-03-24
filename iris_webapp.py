@@ -3,10 +3,9 @@ import pickle
 import os
 
 
-DIR=DIR = 'C:\\Users\\Asus\\Desktop\\machine_learning\\iris_classifier\\'
-lin_model = pickle.load(open(os.path.join(DIR+'lin_reg_model.pkl'),'rb'))
-log_model = pickle.load(open(os.path.join(DIR+'log_reg_model.pkl'),'rb'))
-svc_model = pickle.load(open(os.path.join(DIR+'svm_model.pkl'),'rb'))
+lin_model = pickle.load(open(os.path.join('lin_reg_model.pkl'),'rb'))
+log_model = pickle.load(open(os.path.join('log_reg_model.pkl'),'rb'))
+svc_model = pickle.load(open(os.path.join('svm_model.pkl'),'rb'))
 
 
 def classify(num):
